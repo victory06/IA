@@ -1,0 +1,221 @@
+<?xml version="1.0"
+encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	<pattern>Hablame un poco de ti</pattern>
+	<template>Estudio el doble grado en Informatica y Matematicas y tengo experiencia en la creacion de paginas web y bases de datos.</template>
+	</category>	
+
+	<category>
+	<pattern>Cual es tu mayor defecto</pattern>
+	<template>Me gusta trabajar de manera individual mas que en equipo</template>
+	</category>
+
+	<category>
+	<pattern>Que aspectos no te gustan de un jefe</pattern>
+	<template>Como he trabajado ya en varias empresas, me he encontrado de todo asi que ya me adapto bien a cualquier tipo de trabajo.</template>
+	</category>
+
+	<category>
+	<pattern>Cuales son tus 3 mayores virtudes</pattern>
+	<template>Me encanta aprender
+cosas nuevas y creo que en esta empresa puedo crecer mucho profesionalmente, siempre soy puntual y poca veces enfermo</template>
+	</category>
+	
+	<category>
+	<pattern>Te consideras preparado para desempeniar las funciones de este puesto</pattern>
+	<template>He trabajado bastante con varios aspectos de esta empresa como la ciberseguridad y la inteligencia artificial, con los que no tendría problema. Luego hay otros como la gestion de servidores que me encuentro en un nivel medio por lo que me gustaria aprenderlos.</template>
+	</category>
+
+	<category>
+	<pattern>Tienes experiencia en la realizacion de proyectos en equipos de trabajo</pattern>
+	<template>Si, rindo bien en grupo a pesar de que prefiero individual, y he obtenido buenos resultados</template>
+	</category>
+
+	<category>
+	<pattern>Realizarias un trabajo que no fuera con tu especialidad</pattern>
+	<template>Normalmente si, pues me gusta aprender de todo y si no se algo, rapidamente lo investigo</template>
+	</category>
+
+	<category>
+	<pattern>Te desplazarias de manera ocasional a otros lugares</pattern>
+	<template>Si, suelo disponer del tiempo y facilidad para moverme a sitios distintos en cualquier momento</template>
+	</category>
+
+	<category>
+	<pattern>Te consideras una persona creativa</pattern>
+	<template>En general si, pues en parte soy musico y escritor asi que he desarrollado bastante ese aspecto</template>
+	</category>
+
+	<category>
+	<pattern>Que expectativas tienes de este trabajo</pattern>
+	<template>Creo que el ambiente de la empresa es muy bueno y las funciones a desempeniar me ayudaran mucho a mejorar mas mi experiencia</template>
+	</category>
+
+	<category>
+	<pattern>Que trabajos has tenido en esta tematica</pattern>
+	<template>Pues he trabajado en empresas muy parecidas con ciberseguridad y en puestos de programacion de inteligencia artificial, con funciones muy parecidas a este puesto de trabajo</template>
+	</category>
+
+	<category>
+	<pattern>Normalmente te llevas el trabajo a casa</pattern>
+	<template>Normalmente no, hay que descansar de la rutina, pero si en algun momento me tengo que quedar mas tiempo por cualquien trabajo puntual, no me importa</template>
+	</category>
+
+	<category>
+	<pattern>Cuales son tus aspiraciones salariales</pattern>
+	<template>Pues un salario medio del baremo que se ofertaba en este puesto seria suficiente para la carga de trabajo que suelen tener estas funciones</template>
+	</category>
+
+	<category>
+	<pattern>Donde te ves dentro de cinco anios</pattern>
+	<template>Yo dentro de 5 anios me veo en algun puesto mas alto en la empresa, coordinando algun area de importancia</template>
+	</category>
+
+	<category>
+	<pattern>No tienes experiencia para el puesto a desempeniar</pattern>
+	<template>A pesar de no tener experiencia, me resulta facil adaptarme a cualquier trabajo e investigar por mi cuenta aspectos que de los que no tenga conocimiento</template>
+	</category>
+
+	<category>
+	<pattern>Que sabes de la empresa y el puesto de trabajo</pattern>
+	<template>Pues conozco la mayoria de detalles que he buscado por mi cuenta sobre la empresa y se que este puesto de trabajo trata mucho del trabajo en equipo y la seguridad. Tambien estoy enterado de que el ambiente de trabajo es optimo para ello</template>
+	</category>
+
+	<category>
+	<pattern>Que haces cuando consideras que tu jefe no tiene la razon</pattern>
+	<template>Obedeceria en general, aunque no me gustara, pero si es un fallo que podria poner en riesgo la prosuctividad del proyecto hablaria con el para que lo reconsiderara</template>
+	</category>
+
+	<category>
+	<pattern>Por que deberiamos escogerte a ti</pattern>
+	<template>Gracias a mis estudios y mis 4 años de experiencia en el area, creo que el trabajo se ajusta mucho a mi perfil. Estoy deseando empezar y ayudar a mis companieros</template>
+	</category>
+
+	<category>
+	<pattern>Cuentame ^ ti</pattern>
+	<template><srai>Hablame un poco de ti</srai></template>
+	</category>
+
+	<category>
+	<pattern>Hablame ^ ti</pattern>
+	<template><srai>Hablame un poco de ti</srai></template>
+	</category>
+
+	<category>
+	<pattern>Que te desagrada de un jefe</pattern>
+	<template><srai>Que aspectos no te gustan de un jefe</srai></template>
+	</category>
+
+	<category>
+	<pattern>* aspectos negativos * jefe</pattern>
+	<template><srai>Que aspectos no te gustan de un jefe</srai></template>
+	</category>
+
+	<category>
+	<pattern>* aspectos ^ no te gustan * jefe</pattern>
+	<template><srai>Que aspectos no te gustan de un jefe</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ virtudes ^</pattern>
+	<template><srai>Cuales son tus 3 mayores virtudes</srai></template>
+	</category>
+
+	<category>
+	<pattern>Crees que estas preparado para ^ puesto</pattern>
+	<template><srai>Te consideras preparado para desempeniar las funciones de este puesto</srai></template>
+	</category>
+
+	<category>
+	<pattern>Te ves preparado para ^ puesto</pattern>
+	<template><srai>Te consideras preparado para desmpeniar las funciones de este puesto</srai></template>
+	</category>
+
+	<category>
+	<pattern>* experiencia * proyectos de trabajo en equipo</pattern>
+	<template><srai>Tienes experiencia en la realizacion de proyectos en equipos de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>* experiencia * proyectos en equipo de trabajo</pattern>
+	<template><srai>Tienes experiencia en la realizacion de proyectos en equipos de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>* no fuera ^ tu especialidad</pattern>
+	<template><srai>Realizarias un trabajo que no fuera con tu especialidad</srai></template>
+	</category>
+
+	<category>
+	<pattern> * desplazarte ^ a otros lugares</pattern>
+	<template><srai>Te desplazarias de manera ocasional a otros lugares</srai></template>
+	</category>
+
+	<category>
+	<pattern>* creativo ^</pattern>
+	<template><srai>Te consideras una persona creativa</srai></template>
+	</category>
+
+	<category>
+	<pattern>* creativa ^</pattern>
+	<template><srai>Te consideras una persona creativa</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ expectativas * este trabajo ^</pattern>
+	<template><srai>Que expectativas tienes de este trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ trabajos relacionados con *</pattern>
+	<template><srai>Que trabajos has tenido en esta tematica</srai></template>
+	</category>
+
+	<category>
+	<pattern>* trabajo * casa ^</pattern>
+	<template><srai>Normalmente te llevas el trabajo a casa</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ salario ^</pattern>
+	<template><srai>Cuales son tus aspiraciones salariales</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ salariales ^</pattern>
+	<template><srai>Cuales son tus aspiraciones salariales</srai></template>
+	</category>
+
+	<category>
+	<pattern>* crees que estaras * años ^</pattern>
+	<template><srai>Donde te ves dentro de cinco años</srai></template>
+	</category>
+
+	<category>
+	<pattern>^ no * experiencia para * </pattern>
+	<template><srai>No tienes experiencia para el puesto a desempeniar</srai></template>
+	</category>
+
+	<category>
+	<pattern>* la empresa y ^ puesto ^</pattern>
+	<template><srai>Que sabes de la empresa y el puesto de trabajo</srai></template>
+	</category>
+
+	<category>
+	<pattern>* jefe * no * razon</pattern>
+	<template><srai>Que haces cuando consideras que tu jefe no tiene la razon</srai></template>
+	</category>
+
+	<category>
+	<pattern>Por que deberiamos ser escogido</pattern>
+	<template><srai>Por que deberiamos escogerte a ti</srai></template>
+	</category>
+
+	<category>
+	<pattern>Por que deberiamos *</pattern>
+	<template><srai>Por que deberiamos escogerte a ti</srai></template>
+	</category>
+
+
+</aiml>

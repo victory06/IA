@@ -1,0 +1,15 @@
+ingles
+espanol
+gallego
+frances
+polaco
+portugues
+chino
+japones
+ruso
+italiano
+aleman
+checo
+suomi
+indonesio
+nerlandes
